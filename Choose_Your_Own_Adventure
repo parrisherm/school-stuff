@@ -1,6 +1,8 @@
+/*declaring yes and no so that they will return correct values in the rest of the code*/
 var yes = true
 var no = false
 var user = prompt("You are walking down the hallway when you run into a wild Freshman! What do you do, run, fight, or yell?").toLowerCase()
+/* switch takes input and matches it to a case*/
 switch (user)
 {
     case 'run':
@@ -51,6 +53,7 @@ switch (user)
             }
         }
         break;
+    /*the default is what the switch defaults to if the input doesn't match an existing case*/
     default:
     console.log("I don't understand, please choose again.")
     break;
